@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Painel XP em alto relevo: highlight no topo/esquerda, sombra embaixo/direita -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra externa (canto baixo-direito) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#7A6840" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <!-- Borda escura interna -->
+    <item android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#A89060" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <!-- Highlight claro (topo e esquerda) -->
+    <item android:top="1dp" android:left="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF8E7" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <!-- Face do painel -->
+    <item android:top="2dp" android:left="2dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#EDE3BE" />
+        </shape>
+    </item>
+</layer-list>

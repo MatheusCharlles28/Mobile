@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- ── Seção: Código do Pedido ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_panel"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedido"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/xp_blue_title"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nº do Pedido:"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginEnd="8dp" />
+
+                <EditText
+                    android:id="@+id/etCodigoPedido"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/xp_edittext"
+                    android:paddingStart="6dp"
+                    android:enabled="false"
+                    android:inputType="number"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/xp_blue_title" />
+            </LinearLayout>
+
+            <!-- Busca -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buscar pedido existente:"
+                android:textSize="11sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/etBuscarPedido"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/xp_edittext"
+                    android:paddingStart="6dp"
+                    android:inputType="number"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/btnBuscarPedido"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/xp_button_selector"
+                    android:text="Buscar"
+                    android:textSize="11sp"
+                    android:textColor="@color/text_primary" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ── Seção: Cliente ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_panel"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cliente"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/xp_blue_title"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/spCliente"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/spinner_background"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <!-- ── Seção: Adicionar Item ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_panel"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adicionar Item ao Pedido"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/xp_blue_title"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item de venda:"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spItem"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/spinner_background"
+                android:padding="6dp"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quantidade:"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginBottom="2dp" />
+
+                    <EditText
+                        android:id="@+id/etQuantidade"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="@drawable/xp_edittext"
+                        android:paddingStart="6dp"
+                        android:inputType="number"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_primary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Valor Unit. (R$):"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginBottom="2dp" />
+
+                    <EditText
+                        android:id="@+id/etValorUnitarioItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="@drawable/xp_edittext"
+                        android:paddingStart="6dp"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_primary" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdicionarItem"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xp_button_selector"
+                android:text="+ Adicionar Item"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <!-- ── Seção: Lista de Itens ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_panel"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Itens do Pedido"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/xp_blue_title"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/tvListaItens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nenhum item adicionado"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:background="@drawable/xp_edittext"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Totais -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/xp_panel"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tvTotalItens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total de itens: 0"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary" />
+
+                <TextView
+                    android:id="@+id/tvTotalBruto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Valor bruto: R$ 0,00"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ── Seção: Pagamento ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_panel"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condição de Pagamento"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/xp_blue_title"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/rgPagamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbVista"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="À Vista (5% desc.)"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:buttonTint="@color/xp_blue_mid" />
+
+                <RadioButton
+                    android:id="@+id/rbPrazo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="À Prazo (5% acrés.)"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:buttonTint="@color/xp_blue_mid" />
+            </RadioGroup>
+
+            <!-- Parcelas (visível só a prazo) -->
+            <LinearLayout
+                android:id="@+id/layoutParcelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Número de parcelas:"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="2dp" />
+
+                <EditText
+                    android:id="@+id/etNumeroParcelas"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/xp_edittext"
+                    android:paddingStart="6dp"
+                    android:inputType="number"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tvListaParcelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/text_primary"
+                    android:background="@drawable/xp_edittext"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ── Total Final (barra XP azul) ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/xp_titlebar_bg"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VALOR TOTAL DO PEDIDO"
+                android:textSize="11sp"
+                android:textColor="#CCE0FF"
+                android:letterSpacing="0.08" />
+
+            <TextView
+                android:id="@+id/tvTotalFinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: R$ 0,00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:shadowColor="#000055"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- Botão Concluir -->
+        <Button
+            android:id="@+id/btnConcluirPedido"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/xp_button_green"
+            android:text="✔  Concluir Pedido"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

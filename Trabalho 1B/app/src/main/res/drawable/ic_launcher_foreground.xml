@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fundo azul XP -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- Brilho topo (highlight XP) -->
+    <path
+        android:fillColor="#3A7FD5"
+        android:pathData="M0,0 L108,0 L108,54 Q54,30 0,54 Z" />
+
+    <!-- Carrinho de compras -->
+    <!-- Corpo do carrinho -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,34 L32,34 L38,62 L76,62 L82,42 L36,42 L34,34 Z" />
+
+    <!-- Grade do carrinho -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M38,46 L78,46 L76,62 L40,62 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M50,46 L50,62 M62,46 L62,62" />
+
+    <!-- Alça -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M28,34 L32,34" />
+
+    <!-- Rodas -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,66 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M69,66 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- R$ no carrinho -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M53,49 L53,59 M50,51 L56,51 Q58,51 58,53 Q58,55 56,55 L50,55 M50,55 L58,59"
+        android:strokeColor="#1565C0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.loja.vendas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.loja.vendas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.loja.vendas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:5:5-38:19
+18        android:allowBackup="true"
+18-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\mathe\.gradle\caches\8.9\transforms\1062030956fb9ea6a05e66840bc89533\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:9:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:8:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:11:9-40
+28        <activity
+28-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:13:9-21:20
+29            android:name="com.loja.vendas.MainActivity"
+29-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:14:13-41
+30            android:exported="true"
+30-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:15:13-36
+31            android:label="@string/app_name" >
+31-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:16:13-45
+32            <intent-filter>
+32-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:17:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:19:17-77
+35-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:19:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:23:9-26:58
+39            android:name="com.loja.vendas.ClienteActivity"
+39-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:24:13-44
+40            android:label="@string/title_clientes"
+40-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:25:13-51
+41            android:parentActivityName="com.loja.vendas.MainActivity" />
+41-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:26:13-55
+42        <activity
+42-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:28:9-31:58
+43            android:name="com.loja.vendas.ItemVendaActivity"
+43-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:29:13-46
+44            android:label="@string/title_itens"
+44-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:30:13-48
+45            android:parentActivityName="com.loja.vendas.MainActivity" />
+45-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:31:13-55
+46        <activity
+46-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:33:9-36:58
+47            android:name="com.loja.vendas.PedidoActivity"
+47-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:34:13-43
+48            android:label="@string/title_pedido"
+48-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:35:13-49
+49            android:parentActivityName="com.loja.vendas.MainActivity" />
+49-->C:\Users\mathe\Downloads\LojaVendasVetor\app\src\main\AndroidManifest.xml:36:13-55
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.loja.vendas.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mathe\.gradle\caches\8.9\transforms\cfb801e88a9a3143bd9f00d057c76df6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mathe\.gradle\caches\8.9\transforms\47c1d512bb0ea15094e5a1ebe319dce4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mathe\.gradle\caches\8.9\transforms\47c1d512bb0ea15094e5a1ebe319dce4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mathe\.gradle\caches\8.9\transforms\47c1d512bb0ea15094e5a1ebe319dce4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

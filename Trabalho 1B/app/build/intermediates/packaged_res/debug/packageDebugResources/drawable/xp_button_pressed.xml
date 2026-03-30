@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Afundado: sombra no topo e esquerda -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF8E7" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <item android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#EDE3BE" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <item android:top="1dp" android:left="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#7A6840" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <item android:top="2dp" android:left="2dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#C0B480"
+                android:endColor="#D4C99A"
+                android:angle="270" />
+        </shape>
+    </item>
+</layer-list>

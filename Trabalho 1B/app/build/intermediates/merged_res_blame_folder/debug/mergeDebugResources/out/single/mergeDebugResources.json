@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/layout_activity_cliente.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/layout/activity_cliente.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_panel_xp.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/panel_xp.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_button_normal.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_button_normal.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/layout_activity_pedido.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/layout/activity_pedido.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_button_selector.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_button_selector.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_groupbox_xp.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/groupbox_xp.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_btn_xp_green.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/btn_xp_green.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/layout_activity_main.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_titlebar_xp.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/titlebar_xp.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_panel.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_panel.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_groupbox.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_groupbox.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_button_blue.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_button_blue.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_spinner_background.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_btn_xp.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/btn_xp.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_titlebar_bg.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_titlebar_bg.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_edittext.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_edittext.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_btn_xp_primary.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/btn_xp_primary.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_button_green.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_button_green.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_input_xp.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/input_xp.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/drawable_xp_button_pressed.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/drawable/xp_button_pressed.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/layout_activity_item_venda.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/layout/activity_item_venda.xml"
+    },
+    {
+        "merged": "com.loja.vendas.app-debug-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.loja.vendas.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

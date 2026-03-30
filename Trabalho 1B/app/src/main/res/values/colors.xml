@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFF8E7</color>
+    <color name="background_dark">#F0E8CC</color>
+
+    <color name="xp_blue_title">#0A246A</color>
+    <color name="xp_blue_mid">#3A6EA5</color>
+    <color name="xp_blue_light">#6B9FD4</color>
+
+    <color name="xp_gray_face">#D4C99A</color>
+    <color name="xp_gray_light">#EDE3BE</color>
+    <color name="xp_gray_dark">#A89060</color>
+    <color name="xp_gray_shadow">#7A6840</color>
+
+    <color name="text_primary">#1A1000</color>
+    <color name="text_secondary">#5A4A20</color>
+
+    <color name="accent_green">#3A7A3A</color>
+
+    <color name="primary">@color/xp_blue_mid</color>
+    <color name="primary_dark">@color/xp_blue_title</color>
+    <color name="accent">@color/accent_green</color>
+    <color name="success">@color/accent_green</color>
+    <color name="card_background">@color/xp_gray_light</color>
+    <color name="list_background">@color/background_dark</color>
+    <color name="total_background">@color/xp_gray_face</color>
+    <color name="colorPrimary">@color/xp_blue_mid</color>
+    <color name="colorPrimaryDark">@color/xp_blue_title</color>
+    <color name="colorAccent">@color/accent_green</color>
+</resources>
