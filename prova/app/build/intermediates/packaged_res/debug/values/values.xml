@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="divisor">#E0E0E0</color>
+    <color name="fundo">#F8F9FA</color>
+    <color name="primaria">#5C6BC0</color>
+    <color name="primaria_escura">#3949AB</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="texto_primario">#212121</color>
+    <color name="texto_secundario">#757575</color>
+    <string name="app_name">Calculadora Perímetro Área</string>
+    <style name="Theme.Calculadora" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_escura</item>
+        <item name="colorOnPrimary">@color/superficie</item>
+        <item name="android:windowBackground">@color/fundo</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/primaria_escura</item>
+    </style>
+</resources>

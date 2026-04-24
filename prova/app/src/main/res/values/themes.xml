@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Calculadora" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_escura</item>
+        <item name="colorOnPrimary">@color/superficie</item>
+        <item name="android:windowBackground">@color/fundo</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaria_escura</item>
+    </style>
+</resources>

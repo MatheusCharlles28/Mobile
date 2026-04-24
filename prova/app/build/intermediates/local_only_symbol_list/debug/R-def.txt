@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color divisor
+color fundo
+color primaria
+color primaria_escura
+color superficie
+color texto_primario
+color texto_secundario
+id btnCalcularAreaPerimetro
+id btnCalcularCombustivel
+id etAlturaA
+id etAlturaB
+id etLarguraA
+id etLarguraB
+id etMediaCombustivel
+id etMediaVelocidade
+id etTempoGasto
+id tvArea
+id tvCombustivelUtilizado
+id tvPerimetro
+layout activity_main
+string app_name
+style Theme.Calculadora
